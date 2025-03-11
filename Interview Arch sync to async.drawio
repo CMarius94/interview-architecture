@@ -1,0 +1,205 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.0" pages="2">
+  <diagram name="Client Calls" id="vS78HB4ZBMq7w9B6MAlC">
+    <mxGraphModel dx="2537" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4Mne5P5kp67pERkh0jpk-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Mne5P5kp67pERkh0jpk-1" target="4Mne5P5kp67pERkh0jpk-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mne5P5kp67pERkh0jpk-12" value="Write &quot;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;LinearProblem File&lt;/font&gt;&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4Mne5P5kp67pERkh0jpk-11">
+          <mxGeometry x="-0.1048" y="-3" relative="1" as="geometry">
+            <mxPoint y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Mne5P5kp67pERkh0jpk-13" value="Network" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4Mne5P5kp67pERkh0jpk-11">
+          <mxGeometry x="-0.0476" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Mne5P5kp67pERkh0jpk-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4Mne5P5kp67pERkh0jpk-1" target="4Mne5P5kp67pERkh0jpk-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mne5P5kp67pERkh0jpk-16" value="Call Resolver Service&lt;div&gt;to solve the Input File&amp;nbsp;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4Mne5P5kp67pERkh0jpk-15">
+          <mxGeometry x="-0.2857" y="-2" relative="1" as="geometry">
+            <mxPoint x="27" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Mne5P5kp67pERkh0jpk-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="4Mne5P5kp67pERkh0jpk-1" target="4Mne5P5kp67pERkh0jpk-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mne5P5kp67pERkh0jpk-28" value="&lt;font style=&quot;font-size: 13px; color: rgb(255, 51, 51);&quot;&gt;Calculation Result Data&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4Mne5P5kp67pERkh0jpk-27">
+          <mxGeometry x="-0.26" y="1" relative="1" as="geometry">
+            <mxPoint x="-36" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Mne5P5kp67pERkh0jpk-1" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;Calculation Generator Service&lt;/font&gt;&lt;/b&gt;&lt;br&gt;(Translates business to LinearProblem file model)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mne5P5kp67pERkh0jpk-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="4Mne5P5kp67pERkh0jpk-2" target="4Mne5P5kp67pERkh0jpk-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mne5P5kp67pERkh0jpk-18" value="Solver Result" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4Mne5P5kp67pERkh0jpk-17">
+          <mxGeometry x="0.0381" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Mne5P5kp67pERkh0jpk-2" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;Resolver Service&lt;/font&gt;&lt;/b&gt;&lt;br&gt;(Long Running Highly CPU Intensive Ops)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="280" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mne5P5kp67pERkh0jpk-4" value="IIS" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;" vertex="1" parent="1">
+          <mxGeometry x="620" y="280" width="32" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mne5P5kp67pERkh0jpk-7" value="IIS" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;" vertex="1" parent="1">
+          <mxGeometry x="130" y="280" width="32" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mne5P5kp67pERkh0jpk-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="4Mne5P5kp67pERkh0jpk-8" target="4Mne5P5kp67pERkh0jpk-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mne5P5kp67pERkh0jpk-10" value="Static Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4Mne5P5kp67pERkh0jpk-9">
+          <mxGeometry x="-0.2545" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Mne5P5kp67pERkh0jpk-19" value="" style="swimlane;startSize=0;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="210" width="890" height="560" as="geometry">
+            <mxRectangle x="80" y="210" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Mne5P5kp67pERkh0jpk-14" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.file;aspect=fixed;strokeColor=#292929;" vertex="1" parent="4Mne5P5kp67pERkh0jpk-19">
+          <mxGeometry x="410" y="30" width="21.81" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mne5P5kp67pERkh0jpk-8" value="SQL Database" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="550" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mne5P5kp67pERkh0jpk-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Mne5P5kp67pERkh0jpk-23" target="4Mne5P5kp67pERkh0jpk-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mne5P5kp67pERkh0jpk-26" value="&lt;font style=&quot;font-size: 13px; color: rgb(255, 51, 51);&quot;&gt;Send Calculation Input&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4Mne5P5kp67pERkh0jpk-24">
+          <mxGeometry x="-0.4235" y="4" relative="1" as="geometry">
+            <mxPoint x="32" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Mne5P5kp67pERkh0jpk-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="280" width="100" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mne5P5kp67pERkh0jpk-20" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Client" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="310" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Mne5P5kp67pERkh0jpk-29" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;What Cannot Be Changed&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font&gt;1. Calculation Input&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;2. Calculation Result Data - must be backwards compatible&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;3. Solver Input File&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="110" width="340" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="EkCxZ5NoufvSvzmzbTB1" name="TaskScheduler">
+    <mxGraphModel dx="2537" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dCb-rOY6KcKwJsTPjOvI-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="dCb-rOY6KcKwJsTPjOvI-8" target="dCb-rOY6KcKwJsTPjOvI-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dCb-rOY6KcKwJsTPjOvI-2" value="Write &quot;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;LinearProblem File&lt;/font&gt;&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dCb-rOY6KcKwJsTPjOvI-1">
+          <mxGeometry x="-0.1048" y="-3" relative="1" as="geometry">
+            <mxPoint x="6" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCb-rOY6KcKwJsTPjOvI-3" value="Network" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dCb-rOY6KcKwJsTPjOvI-1">
+          <mxGeometry x="-0.0476" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCb-rOY6KcKwJsTPjOvI-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dCb-rOY6KcKwJsTPjOvI-8" target="dCb-rOY6KcKwJsTPjOvI-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dCb-rOY6KcKwJsTPjOvI-5" value="Call Resolver Service&lt;div&gt;to solve the Input File&amp;nbsp;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dCb-rOY6KcKwJsTPjOvI-4">
+          <mxGeometry x="-0.2857" y="-2" relative="1" as="geometry">
+            <mxPoint x="27" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCb-rOY6KcKwJsTPjOvI-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="dCb-rOY6KcKwJsTPjOvI-8" target="dCb-rOY6KcKwJsTPjOvI-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dCb-rOY6KcKwJsTPjOvI-7" value="&lt;font style=&quot;font-size: 13px; color: rgb(255, 51, 51);&quot;&gt;2a. Calculation Result Data&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dCb-rOY6KcKwJsTPjOvI-6">
+          <mxGeometry x="-0.26" y="1" relative="1" as="geometry">
+            <mxPoint x="-26" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCb-rOY6KcKwJsTPjOvI-8" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;Calculation Generator Service&lt;/font&gt;&lt;/b&gt;&lt;br&gt;(Translates business to LinearProblem file model)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dCb-rOY6KcKwJsTPjOvI-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="dCb-rOY6KcKwJsTPjOvI-11" target="dCb-rOY6KcKwJsTPjOvI-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dCb-rOY6KcKwJsTPjOvI-10" value="Solver Result" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dCb-rOY6KcKwJsTPjOvI-9">
+          <mxGeometry x="0.0381" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCb-rOY6KcKwJsTPjOvI-11" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;Resolver Service&lt;/font&gt;&lt;/b&gt;&lt;br&gt;(Long Running Highly CPU Intensive Ops)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="280" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dCb-rOY6KcKwJsTPjOvI-12" value="IIS" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;" vertex="1" parent="1">
+          <mxGeometry x="620" y="280" width="32" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dCb-rOY6KcKwJsTPjOvI-13" value="IIS" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;" vertex="1" parent="1">
+          <mxGeometry x="130" y="280" width="32" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dCb-rOY6KcKwJsTPjOvI-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="dCb-rOY6KcKwJsTPjOvI-16" target="dCb-rOY6KcKwJsTPjOvI-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dCb-rOY6KcKwJsTPjOvI-15" value="Static Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dCb-rOY6KcKwJsTPjOvI-14">
+          <mxGeometry x="-0.2545" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCb-rOY6KcKwJsTPjOvI-16" value="SQL Database" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="550" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dCb-rOY6KcKwJsTPjOvI-17" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="210" width="1240" height="560" as="geometry">
+            <mxRectangle x="80" y="210" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCb-rOY6KcKwJsTPjOvI-18" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.file;aspect=fixed;strokeColor=#292929;" vertex="1" parent="dCb-rOY6KcKwJsTPjOvI-17">
+          <mxGeometry x="760" y="30" width="21.81" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dCb-rOY6KcKwJsTPjOvI-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dCb-rOY6KcKwJsTPjOvI-17">
+          <mxGeometry x="50" y="70" width="140" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dCb-rOY6KcKwJsTPjOvI-24" value="Task Scheduler&lt;br&gt;3. Generate Reports" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.clock;" vertex="1" parent="dCb-rOY6KcKwJsTPjOvI-17">
+          <mxGeometry x="97.5" y="120" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="dCb-rOY6KcKwJsTPjOvI-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="dCb-rOY6KcKwJsTPjOvI-21" target="dCb-rOY6KcKwJsTPjOvI-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dCb-rOY6KcKwJsTPjOvI-20" value="&lt;font style=&quot;font-size: 13px; color: rgb(255, 51, 51);&quot;&gt;2. Send Calculation Input&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dCb-rOY6KcKwJsTPjOvI-19">
+          <mxGeometry x="-0.4235" y="4" relative="1" as="geometry">
+            <mxPoint x="42" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCb-rOY6KcKwJsTPjOvI-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" target="dCb-rOY6KcKwJsTPjOvI-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-150" y="280" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-150" y="240" />
+              <mxPoint x="-150" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCb-rOY6KcKwJsTPjOvI-29" value="1. Request additional data from External Service&lt;div&gt;to build a Calculation Input&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dCb-rOY6KcKwJsTPjOvI-28">
+          <mxGeometry x="0.4698" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCb-rOY6KcKwJsTPjOvI-23" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;What Cannot Be Changed&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font&gt;1. Calculation Input&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;2. Calculation Result Data - must be backwards compatible&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;3. Solver Input File&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="110" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dCb-rOY6KcKwJsTPjOvI-25" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;External Service&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-235" y="20" width="170" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
